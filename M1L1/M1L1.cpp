@@ -130,7 +130,7 @@ bool calculator()
         cout << fixed << setprecision(5) << result << endl;
     }
     else {
-        cout << "Sorry, result is to big!";
+        cout << "Sorry, result is to big!" << endl;
     }
 
     return checkRepeat();
